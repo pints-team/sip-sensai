@@ -60,13 +60,17 @@ SIP_SENSAI code for measure-theoretic inverse sensitivity problems by Simon Tave
 
    and change
 
-    ```qtype = 1;
-    stype = 3;```
+    ```
+    qtype = 1;
+    stype = 3;
+    ```
     
    to
 
-    ```qtype = 0;
-    stype = 1;```
+    ```
+    qtype = 0;
+    stype = 1;
+    ```
     
 3. Generate m-files using
 
