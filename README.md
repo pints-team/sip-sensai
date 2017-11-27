@@ -60,13 +60,13 @@ SIP_SENSAI code for measure-theoretic inverse sensitivity problems by Simon Tave
 
    and change
 
-    `qtype = 1;`
-    `stype = 3;`
+    ```qtype = 1;
+    stype = 3;```
     
    to
 
-    `qtype = 0;`
-    `stype = 1;`
+    ```qtype = 0;
+    stype = 1;```
     
 3. Generate m-files using
 
@@ -74,7 +74,7 @@ SIP_SENSAI code for measure-theoretic inverse sensitivity problems by Simon Tave
     
    Ignore the warning
 
-4. Check user_SIP.m and see if the grid size (ngrid) is set to something small
+4. Check `user_SIP.m` and see if the grid size (`ngrid`) is set to something small
 
     `ngrid = [10 10 10]`
    
@@ -93,6 +93,6 @@ SIP_SENSAI code for measure-theoretic inverse sensitivity problems by Simon Tave
    
     `SIP_SENSAI('/home/michael/sensai', '/home/michael/sensai', 'HodgkinHuxley','HH-SpringBreak', 2, 2)`
    
-   where 'home/michael/sensai' should be whatever you specified as OUTPUT_DIRECTORY
+   where `home/michael/sensai` should be whatever you specified as `OUTPUT_DIRECTORY`
    way back in the MuPAD file.
 
